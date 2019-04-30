@@ -22,7 +22,7 @@ Continuous servos can work using the code for 180° servos. Continuous servos, a
 
 The Adafruit CircuitPython Library Bundle ensures that all dependencies are available, but requires the CircuitPythonn Build Tools for itself.
 ```
-pip install circuitpython-build-tools
+pip3 install circuitpython-build-tools
 pip3 install adafruit-circuitpython-lis3dh
 pip3 install adafruit-circuitpython-servokit
 ```
@@ -39,7 +39,7 @@ An address of 0x40 is 64, 1x41 is 65 and so on.
 
 To use the library, the programs must be run with python3
 
-```python
+```python3
 from adafruit_servokit import ServoKit
 kit = ServoKit(channels=16, address=65)
 
